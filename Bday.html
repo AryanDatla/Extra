@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday!!</title>
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    </head>
+      <style>
+        body {
+            font-family: 'Comic Sans MS', cursive, sans-serif;
+            text-align: center;
+            background-color: #ffdfba;
+            margin: 0;
+            padding: 0;
+        }
+        .card {
+            background-color: #fff;
+            width: 400px;
+            margin: 20px auto;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 5px 5px 10px #888888;
+            position: relative;
+            animation: bounce 2s infinite;
+        }
+        h1 {
+            color: #ff4500;
+            font-size: 36px;
+        }
+        p {
+            font-size: 18px;
+        }
+        
+        #confetti {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+        }
+        
+        @keyframes bounce {
+            0%, 100% {
+                transform: translateY(0);
+            }
+            50% {
+                transform: translateY(-10px);
+            }
+        }
+    </style>
+<body>
+    <div class="card">
+        <h1>Happy Birthday!</h1>
+        <div id="confetti"></div>
+
+	<img src="IMG_20190512_153659.jpg" alt="image 1" width="300">
+    
+        <p>Happy Birthday to the most amazing woman I know! 🎉🎂</p>
+	<p>Today is all about celebrating you and the incredible person you are.</p>
+	<p>On this special day, I hope you feel showered with all the love and appreciation you so richly deserve.</p>
+	<p>You're not just a year older, you're a year more fabulous! 💃 </p>
+	<p>And let's be honest, you're aging like a fine wine 🍷 - though I'm pretty sure wine doesn't snore as loudly as you do! 😴</p>
+	<p>🌷💐 May your day be filled with your favorite treats 🍰, surrounded by the people who cherish you most 👨‍👩‍👧‍👦,</p> 
+	<p>and overflowing with joyous laughter 😄.</p>    
+	<p>Here's to you, Mum – the queen of our family 👑, the heart of our home 🏡, and the brightest star in my sky 🌠.</p>
+	<p>May this year be your best one yet!</p> 
+	<p>Enjoy your special day to the fullest! 🥂🎁🎈</p>
+    </div>
+    <script>
+        particlesJS("confetti", {
+            "particles": {
+                "number": {
+                    "value": 100
+                },
+                "color": {
+                    "value": "#ffcc00"
+                },
+                "shape": {
+                    "type": "circle"
+                },
+                "opacity": {
+                    "value": 0.7,
+                    "random": true
+                },
+                "size": {
+                    "value": 5
+                },
+                "move": {
+                    "enable": true,
+                    "speed": 5,
+                    "direction": "none",
+                    "random": true
+                },
+                "line_linked": {
+                    "enable": false
+                }
+            },
+            "interactivity": {
+                "events": {
+                    "onhover": {
+                        "enable": false
+                    }
+                }
+            }
+        });
+    </script>
+</body>
+</html>
